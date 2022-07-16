@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "triple-zenith-351323",
+  "private_key_id": "8cd8a43f774ee555b9b15ae37df76bfa786ed01a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDexuaLOBUCqMRI\nLxJv+GmzcyX2rZ1S1wiv7U2Fbquydnva3PPG0K+cQGW297dBHwe5RLspJDODC4x1\nfJ7ei8Y0eeStY79jzpIkXOOg57QdgVGJMioiL6lS+tHz+lUEdsWZI18CHU5gGVNu\nxEtuT4jQGOR8jloosdnxJ7vPQUCKSjZ6WMtBs2HIrrWNaDyQHHoZNXHo01kuK7Jd\n+3i+8g23671HD8iXuBmClWcGPlz1neswGxd3ubUHNDt40sgYMAH3qHzytZP8f04o\n2L96Jhi40mwTER6Ex0SP0KgIAmR4uUhn8N2tkOgfhG1Y6BtNJXiuBGIVEJawS863\nw7WawpgHAgMBAAECggEAIjmzjJrym2R7N03ICtzCvHeJ0xKMM4BmzMRr3v6IMVRD\npfXBG//OovY/yjLXfBE82glFqcXuhgj9rMUXEUCvFDvP1pWW/0nqqNx+eiduxAOs\nl6PV1ke1P1Lac523dwaaR/Mnswb2lgv+BevxXMKqVbIlVD94eX0Nax+8GlS/ih8g\nQS/ukRvHud9HpOoe0HREJzzub1hOVuqRYqhq3LlqjiMFu1aWsnQjLVB7XtgJ9NEO\nDhaBKqgQV2eLPwbEppWL+vnpJZwcE5UdczJ/Mu9WKdx/eIWLaZK/n7a9uKqYm1g3\nAy76TXgYvlkeCxFRnWsfoSVZbUB9El/TwebZ7ndRfQKBgQD24G5SnZQ8k9y0CCOd\nt+kHErGl1WqFAk5qmz9lwIIidBEKoAWY40YzrAk0L5lnHOvPrj1aHTUWO4r4Dwc2\nUykXQ/05FVyiebp2twGsRdjyGAWY6vIDNavPh5HnZWuP3NTihFWIRz/K0z9PjeX/\nCKMRce1ioSwQInqVjWtD3bw5kwKBgQDnAnmS9/EadcU946ecMsdI+9V15pCdk5Dk\nuKiIr7y165loXJw3/huWJFv/zO8bbfUyX8tGJzcvm/PYn3tB5exLWEdTYvdkeAWJ\nauZ11TU1wF/36MXM1EVd24ZG6UpUdtntGzNa4VrioRTV4lCE4EzUboxFzaxnDgrV\nu1vky3+gPQKBgQCwfpDApYFlsXv2hV8ZEXMaKGYynZmyj4yKMIUpdHBUu0+3neGC\nhPEaXeKSmXj9O7LmXbXk576dL2JRp0TLtLZKuMOe/MOmMIp69qjOhXzszvmpckYk\nv0kea9iGan50cjcL3fncHLvhgBbiBBsqsf0Kqr1AZuM+gbfLlTfbY/l92wKBgA7h\ny+855eBsgd5w0hVv+AKtppzH070zCnyRoNndaGzX1rQwcyfwSNqtUPfzvduog8lQ\n/olwcU+x3k2wSIKAS263KzEmCQYB7Wli56HjsF/cGtKfvk5pxmY7hDUBRnaWiYeK\n3w4VwoMjGXKF9+X3hTuSO5srmtWww+XtAgiFS52JAoGAJ9bhEGqLIsgEkYn3fg9m\nu2JFvIDAEj56UbST3MymC8xKUJX8MhHH4ruklHf/6WNagnFmkTN+CTT0BsAo/1I6\nbbvYjbSWizqvr2AB/r+ylzptgg5JCATYkN6DG7jD7PRVjKxakusN8u0nI7VYgcvs\nORYxwlxoEHkCtDnTqckwTH4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "googletranslation@triple-zenith-351323.iam.gserviceaccount.com",
+  "client_id": "103714286128952613792",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googletranslation%40triple-zenith-351323.iam.gserviceaccount.com"
+}
