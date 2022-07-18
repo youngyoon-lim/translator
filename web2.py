@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 from google.cloud import translate_v2 as translate
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] =  r"/workspace/google_translate/GoogleCloudKey.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"/workspace/web_translator/GoogleCloudKey.json"
 client = translate.Client()
 
 
@@ -19,37 +19,38 @@ html = '''
 </html>
 '''
 
-# target = "ko"
+target = "ko"
 
 # url = 'https://www.troyhunt.com/the-773-million-record-collection-1-data-reach/'
 # res = requests.get(url)
 # html2 = res.content
+
 soup = BeautifulSoup(html, 'html.parser')
 print(soup)
-
-
-# blacklist = [
-#     '[document]',
-#     'noscript',
-#     'header',
-#     'html',
-#     'meta',
-#     'head', 
-#     'input',
-#     'script',
-#     'style',
-#     'li',
-#     'div',
-#     'a'
-#     # there may be more elements you don't want, such as "style", etc.
-# ]
 
 
 elements = ['p','title']
 # print(soup.findAll(soup))
 
 for i in soup.findAll(elements):
-    i.string.replace_with(ts.google(i.string,from_language='en',    to_language='ko'))
-print(soup)
+    output = client.translate(str(i), target_language=target)
+    #output type 확인
+    '''
+    print(type(output))
+    print(output)
+    '''
+
+    # dic -> Tuple pair로 이루어진 List로 리턴
+    sorted_output = sorted(output.items())
+    '''
+    print(sorted_output)
+    print(type(sorted_output))
+    '''
+    print(sorted_output[2][1].replace("&#39;", "'"))
+
+    
+# for i in soup.findAll(elements):
+#     i.string.replace_with(ts.google(i.string,from_language='en',to_language='ko'))
+# print(soup)
 
 
